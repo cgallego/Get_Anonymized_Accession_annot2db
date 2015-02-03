@@ -1,0 +1,47 @@
+Annotation thumbnail creator.
+
+Made by Martin Durant in 2014 for the Martel Breast CAD group.
+
+
+Purpose
+-------
+
+To produce an image per DICOM annotation for a given directory of
+dingle-slice DICOM image files. Typically this will be done during
+the process of fetching from clinical PACS, anonomyzing and pushing
+to research PACS.
+
+Will maintain a local-file database of all records produced, for
+possible later merge with biomatrix.
+
+Produces a logfile of all annotations processed, and can query the
+database for any given accession, to aid with filling in the URL
+field in biomatrix/exam-finding and provides further information
+on lesion location.
+
+Requirements
+------------
+
+Depends upon:
+numpy
+matplotlib
+sqlalchemy
+
+Settings
+--------
+
+The function main.scan_directory is the only one that should
+typically use. It's docstring details the inputs. One can either
+hard-code values into the main.pars dictionary, set these values
+at run-time, or pass a dictionary of override values to 
+scan_directory.
+
+Command-line mode
+-----------------
+
+To query the annotation records for a particular accession number,
+run 
+>python main.py acc
+The output will be the same format as scan_directory prints to the
+logfile.
+

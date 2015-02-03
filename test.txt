@@ -1,0 +1,7 @@
+0000    198    4809893      # accession with annotations
+
+
+2314501	2	6745896   # in MRI_MARTEL
+2051653	578	4254717   # not in ASOSUN
+1046150	774	6988873  # new
+2607991	6036	5141884	Accession number not found in AS0SUNB

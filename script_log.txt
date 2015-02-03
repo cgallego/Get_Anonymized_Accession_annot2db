@@ -1,0 +1,13 @@
+1003160	3000	5017560	Accession number found in MRI_MARTEL
+2796518	4036	7079424	Accession number found in MRI_MARTEL
+1003160	3000	5394219	Accession number found in MRI_MARTEL
+1003160	3000	6731256	Accession number found in MRI_MARTEL
+629737	21	7350668	Accession number found in MRI_MARTEL
+650070	916	7732877	Accession number found in MRI_MARTEL
+652791	3019	7011103	Accession number found in MRI_MARTEL
+621479	3020	5043859	Accession number found in MRI_MARTEL
+0000	198	4809893	Accession number found in MRI_MARTEL
+621479	3020	6938189	Accession number found in MRI_MARTEL
+621479	3020	7120348	Accession number found in MRI_MARTEL
+621479	3020	7495321	Accession number found in MRI_MARTEL
+594969	3022	5391423	Accession number found in MRI_MARTEL
