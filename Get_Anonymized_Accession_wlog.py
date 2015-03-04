@@ -10,7 +10,7 @@ import SQL, query
 from dictionaries import data_loc, program_loc, my_aet, hostID, local_port, clinical_aet, clinical_IP, clinical_port, remote_aet, remote_IP, remote_port
 # support for annotations
 from dictionaries import annot_dir, annot_URL, annot_con
-import annot
+import main_annot
 
 
 print '''
@@ -39,7 +39,7 @@ def process_annots(exam_loc):
                     'clobber':True,
                     'dry_run':False, 'log':None}
                     
-    annot.main.scan_directory(test_pars) 
+    main_annot.scan_directory(test_pars) 
     return
 
 
@@ -55,7 +55,8 @@ def update_table(PatientID, StudyID, accession):
     print "\nProcess annotations... if any save to image and database"  
     process_annots(exam_loc)    
     try:
-        SQL.run_code(accessnum, exam_loc)
+        #SQL.run_code(accessnum, exam_loc)
+        print "done.. now Deleting local images"
         try:
             
             if os.path.isdir(exam_loc):
@@ -489,10 +490,12 @@ def pull_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, P
             if SeriesPair[1] == k: # v:
                 #print SeriesPair[1], '\t\t', v #, '\n' ###[0], '\t\t', k #, '\n'
                 imagefList.append(SeriesPair[0])                
+                
                 cmd = program_loc+os.sep+'dcmodify -gin -m "(0020,000D)=' + anonyStudyUID + '" -m "(0020,000e)=' + anonySeriesUID + '" \
                 -m "(0010,0010)=' + aPatientName + '" -m "(0010,0020)=' + aPatientID +'" \
-                -m "(0008, 0090)="Anon" -m "(0008, 1050)="Anon" -m "(0008, 1070)="Anon" -m "(0032, 1032)="Anon" -m "(0033, 1013)="Anon" -m "(0033, 1016)="Anon" -m "(0033, 1019)="Anon" -m "(0033, 101c)="Anon" \
+                -m "(0008, 0090)="Anon" -m "(0008, 1070)="Anon"  -m "(0033, 1013)="Anon"  -m "(0033, 1019)="Anon" \
                 -i "(0012,0021)=BRCA1F" -i "(0012,0040)=' + ClinicTrialNo + '" ' + SeriesPair[0] + ' > outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt'     
+                # private tags removed: -m "(0008, 1050)="Anon" -m "(0032, 1032)="Anon" -m "(0033, 1016)="Anon"-m "(0033, 101c)="Anon"
                 lines = os.system(cmd)
                 
         print '(', len(imagefList), ' images are anonymized.)'

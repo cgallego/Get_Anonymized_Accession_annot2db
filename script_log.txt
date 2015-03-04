@@ -11,3 +11,532 @@
 621479	3020	7120348	Accession number found in MRI_MARTEL
 621479	3020	7495321	Accession number found in MRI_MARTEL
 594969	3022	5391423	Accession number found in MRI_MARTEL
+1	18	3008479	Accession number found in MRI_MARTEL
+3	59	2631431	Accession number found in MRI_MARTEL
+3	59	2631431	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:3	59	2631431	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/2631431'
+4	114	6896014	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:4	114	6896014	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6896014'
+6	198	4809893	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:6	198	4809893	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4809893'
+8	261	3636380	Accession number found in MRI_MARTEL
+8	261	3636380	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:8	261	3636380	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/3636380'
+9	271	4263872	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:9	271	4263872	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4263872'
+10	272	3772910	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:10	272	3772910	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/3772910'
+11	276	6952525	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:11	276	6952525	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6952525'
+13	280	5091695	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:13	280	5091695	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5091695'
+15	282	2595081	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:15	282	2595081	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/2595081'
+16	7077	5077480	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:16	7077	5077480	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5077480'
+19	299	2609015	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:19	299	2609015	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/2609015'
+Adding to biomatrix series table ERROR:21	331	4722659	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4722659'
+22	340	2765866	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:22	340	2765866	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/2765866'
+23	455	3239350	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:23	455	3239350	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/3239350'
+25	556	4072916	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:25	556	4072916	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4072916'
+30	651	4695822	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:30	651	4695822	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4695822'
+31	663	4804825	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:31	663	4804825	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4804825'
+32	667	4864590	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:32	667	4864590	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4864590'
+34	673	4585908	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:34	673	4585908	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4585908'
+35	679	4994641	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:35	679	4994641	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4994641'
+36	683	5226149	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:36	683	5226149	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5226149'
+37	684	5266209	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:37	684	5266209	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5266209'
+Adding to biomatrix series table ERROR:38	687	None	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/None'
+42	690	5180451	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:42	690	5180451	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5180451'
+43	691	5178056	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:43	691	5178056	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5178056'
+45	700	4660805	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:45	700	4660805	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4660805'
+46	705	4648471	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:46	705	4648471	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4648471'
+48	706	4925753	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:48	706	4925753	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4925753'
+49	707	5184832	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:49	707	5184832	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5184832'
+50	710	5282770	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:50	710	5282770	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5282770'
+53	713	5150291	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:53	713	5150291	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5150291'
+56	714	5324209	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:56	714	5324209	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5324209'
+60	718	4962581	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:60	718	4962581	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4962581'
+61	721	4961869	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:61	721	4961869	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4961869'
+62	722	5366177	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:62	722	5366177	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5366177'
+64	724	5141876	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:64	724	5141876	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5141876'
+65	726	5304228	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:65	726	5304228	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5304228'
+66	727	4803733	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:66	727	4803733	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4803733'
+67	728	5304244	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:67	728	5304244	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5304244'
+71	729	4805710	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:71	729	4805710	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4805710'
+72	730	5009497	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:72	730	5009497	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5009497'
+73	731	5265417	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:73	731	5265417	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5265417'
+74	735	5276000	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:74	735	5276000	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5276000'
+75	736	4963473	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:75	736	4963473	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4963473'
+76	744	4848278	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:76	744	4848278	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4848278'
+77	745	4881779	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:77	745	4881779	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4881779'
+78	747	5118530	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:78	747	5118530	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5118530'
+79	752	4940477	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:79	752	4940477	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4940477'
+81	755	5059877	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:81	755	5059877	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5059877'
+82	757	4779344	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:82	757	4779344	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4779344'
+83	758	4796378	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:83	758	4796378	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4796378'
+84	760	4750742	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:84	760	4750742	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4750742'
+85	764	5088503	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:85	764	5088503	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5088503'
+87	765	5094113	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:87	765	5094113	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5094113'
+88	771	4680997	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:88	771	4680997	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4680997'
+90	776	5352670	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:90	776	5352670	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5352670'
+93	779	4934249	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:93	779	4934249	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4934249'
+95	781	4738440	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:95	781	4738440	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4738440'
+97	783	4758418	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:97	783	4758418	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4758418'
+98	789	4785741	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:98	789	4785741	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4785741'
+99	790	4708057	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:99	790	4708057	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4708057'
+100	791	5365218	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:100	791	5365218	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5365218'
+102	792	5264066	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:102	792	5264066	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5264066'
+104	793	4988020	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:104	793	4988020	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4988020'
+Adding to biomatrix series table ERROR:105	796	860773	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/860773'
+106	799	5372294	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:106	799	5372294	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5372294'
+107	803	5058195	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:107	803	5058195	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5058195'
+109	807	5235491	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:109	807	5235491	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5235491'
+110	809	5016014	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:110	809	5016014	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5016014'
+112	810	4622489	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:112	810	4622489	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4622489'
+113	812	4700538	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:113	812	4700538	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4700538'
+114	813	5378164	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:114	813	5378164	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5378164'
+115	814	4704240	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:115	814	4704240	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4704240'
+116	815	4828432	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:116	815	4828432	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4828432'
+117	817	5363917	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:117	817	5363917	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5363917'
+119	818	5021762	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:119	818	5021762	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5021762'
+120	827	4985128	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:120	827	4985128	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4985128'
+122	829	5264139	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:122	829	5264139	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5264139'
+123	830	4863868	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:123	830	4863868	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4863868'
+126	831	4633368	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:126	831	4633368	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4633368'
+127	837	3046951	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:127	837	3046951	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/3046951'
+132	839	4739257	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:132	839	4739257	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4739257'
+134	843	4798594	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:134	843	4798594	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4798594'
+135	846	4800867	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:135	846	4800867	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4800867'
+136	847	5064132	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:136	847	5064132	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5064132'
+137	850	5380609	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:137	850	5380609	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5380609'
+139	851	4593282	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:139	851	4593282	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4593282'
+140	852	5095210	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:140	852	5095210	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5095210'
+141	853	4798586	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:141	853	4798586	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4798586'
+142	855	4641315	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:142	855	4641315	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4641315'
+144	856	4986174	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:144	856	4986174	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4986174'
+146	857	4870283	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:146	857	4870283	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4870283'
+147	860	5033266	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:147	860	5033266	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5033266'
+149	861	5053396	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:149	861	5053396	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5053396'
+150	863	4969136	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:150	863	4969136	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4969136'
+152	865	5267535	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:152	865	5267535	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5267535'
+155	867	5372277	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:155	867	5372277	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5372277'
+156	870	5141888	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:156	870	5141888	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5141888'
+157	873	4956191	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:157	873	4956191	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4956191'
+159	877	4724338	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:159	877	4724338	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4724338'
+160	880	4809515	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:160	880	4809515	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4809515'
+161	880	6778829	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:161	880	6778829	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6778829'
+167	884	6876318	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:167	884	6876318	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6876318'
+Adding to biomatrix series table ERROR:168	6001	4574766	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4574766'
+171	6004	ACC108249	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:171	6004	ACC108249	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/ACC108249'
+173	6005	ACC108250	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:173	6005	ACC108250	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/ACC108250'
+Adding to biomatrix series table ERROR:176	6008	4644038	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4644038'
+Adding to biomatrix series table ERROR:177	6014	5101372	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5101372'
+Adding to biomatrix series table ERROR:178	6015	5082265	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5082265'
+Adding to biomatrix series table ERROR:180	6017	5086121	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5086121'
+Adding to biomatrix series table ERROR:182	6018	5088825	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5088825'
+183	6020	ACC109177	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:183	6020	ACC109177	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/ACC109177'
+Adding to biomatrix series table ERROR:184	6022	5046558	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5046558'
+Adding to biomatrix series table ERROR:185	6023	4697014	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4697014'
+Adding to biomatrix series table ERROR:186	6024	5008021	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5008021'
+Adding to biomatrix series table ERROR:188	6025	5111910	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5111910'
+Adding to biomatrix series table ERROR:191	6026	4888386	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4888386'
+Adding to biomatrix series table ERROR:192	6027	4770166	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4770166'
+Adding to biomatrix series table ERROR:194	6029	5083338	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5083338'
+Adding to biomatrix series table ERROR:196	6034	4997881	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4997881'
+Adding to biomatrix series table ERROR:199	6035	5062962	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5062962'
+Adding to biomatrix series table ERROR:201	6036	5141884	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5141884'
+202	6037	5043444	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:202	6037	5043444	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5043444'
+Adding to biomatrix series table ERROR:204	6038	5044471	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5044471'
+207	6039	ACC109197	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:207	6039	ACC109197	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/ACC109197'
+209	6040	5075204	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:209	6040	5075204	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5075204'
+211	6041	5104414	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:211	6041	5104414	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5104414'
+Adding to biomatrix series table ERROR:213	6042	4504274	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4504274'
+Adding to biomatrix series table ERROR:214	6043	5249778	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5249778'
+Adding to biomatrix series table ERROR:215	6044	5078981	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5078981'
+Adding to biomatrix series table ERROR:217	6045	5208117	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5208117'
+219	6046	ACC108189	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:219	6046	ACC108189	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/ACC108189'
+Adding to biomatrix series table ERROR:223	6047	5275305	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5275305'
+Adding to biomatrix series table ERROR:225	6048	5284266	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5284266'
+Adding to biomatrix series table ERROR:226	6050	5225817	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5225817'
+227	6051	5426079	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:227	6051	5426079	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5426079'
+228	681	4999374	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:228	681	4999374	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4999374'
+229	683	5226149	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:229	683	5226149	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5226149'
+230	690	5180451	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:230	690	5180451	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5180451'
+231	722	5366177	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:231	722	5366177	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5366177'
+232	728	5304244	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:232	728	5304244	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5304244'
+233	742	5329785	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:233	742	5329785	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5329785'
+235	752	4940477	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:235	752	4940477	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4940477'
+236	755	5059877	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:236	755	5059877	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5059877'
+237	758	4796378	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:237	758	4796378	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4796378'
+238	776	5352670	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:238	776	5352670	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5352670'
+239	778	4794199	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:239	778	4794199	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4794199'
+240	795	5188009	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:240	795	5188009	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5188009'
+241	802	4600874	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:241	802	4600874	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4600874'
+242	805	5059167	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:242	805	5059167	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5059167'
+243	813	5378164	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:243	813	5378164	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5378164'
+244	827	4985128	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:244	827	4985128	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4985128'
+245	853	4745782	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:245	853	4745782	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4745782'
+246	862	5395314	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:246	862	5395314	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5395314'
+247	871	5130094	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:247	871	5130094	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5130094'
+251	881	3862727	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:251	881	3862727	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/3862727'
+252	883	5177385	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:252	883	5177385	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5177385'
+253	884	6876318	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:253	884	6876318	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6876318'
+Adding to biomatrix series table ERROR:254	6001	4574766	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4574766'
+255	6005	ACC108250	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:255	6005	ACC108250	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/ACC108250'
+256	6019	ACC109175	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:256	6019	ACC109175	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/ACC109175'
+257	6021	4798692	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:257	6021	4798692	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4798692'
+Adding to biomatrix series table ERROR:258	6022	5046558	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5046558'
+Adding to biomatrix series table ERROR:259	6023	4697014	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4697014'
+260	6032	4982490	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:260	6032	4982490	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4982490'
+Adding to biomatrix series table ERROR:261	6035	5062962	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5062962'
+262	6039	ACC109197	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:262	6039	ACC109197	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/ACC109197'
+Adding to biomatrix series table ERROR:263	6042	4504274	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4504274'
+264	6052	5369136	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:264	6052	5369136	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5369136'
+265	782	4775699	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:265	782	4775699	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4775699'
+Adding to biomatrix series table ERROR:266	672	4899757	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4899757'
+267	775	5437780	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:267	775	5437780	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5437780'
+271	845	5433683	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:271	845	5433683	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5433683'
+272	851	4593282	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:272	851	4593282	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4593282'
+273	2	6745896	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:273	2	6745896	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6745896'
+274	27	6805483	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:274	27	6805483	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6805483'
+275	93	7156466	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:275	93	7156466	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7156466'
+277	114	6734489	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:277	114	6734489	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6734489'
+278	177	6996979	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:278	177	6996979	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6996979'
+280	186	6869828	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:280	186	6869828	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6869828'
+281	190	6760690	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:281	190	6760690	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6760690'
+284	276	6952525	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:284	276	6952525	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6952525'
+285	578	6765702	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:285	578	6765702	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6765702'
+286	420	6738142	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:286	420	6738142	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6738142'
+287	635	7092156	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:287	635	7092156	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7092156'
+288	657	6980780	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:288	657	6980780	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6980780'
+289	666	5088826	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:289	666	5088826	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5088826'
+290	456	6689214	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:290	456	6689214	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6689214'
+291	462	5466989	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:291	462	5466989	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5466989'
+293	503	6697826	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:293	503	6697826	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6697826'
+294	559	4880493	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:294	559	4880493	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4880493'
+295	667	6993980	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:295	667	6993980	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6993980'
+296	668	6989634	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:296	668	6989634	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6989634'
+297	853	6696534	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:297	853	6696534	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6696534'
+298	857	5013393	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:298	857	5013393	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5013393'
+299	888	6744887	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:299	888	6744887	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6744887'
+300	950	6931716	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:300	950	6931716	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6931716'
+302	6052	5369136	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:302	6052	5369136	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5369136'
+303	6054	5425486	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:303	6054	5425486	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5425486'
+304	7018	6803089	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:304	7018	6803089	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6803089'
+305	7018	7138226	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:305	7018	7138226	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7138226'
+306	7104	6941351	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:306	7104	6941351	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6941351'
+307	7076	7267446	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:307	7076	7267446	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7267446'
+309	7086	6938067	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:309	7086	6938067	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6938067'
+310	7008	6875110	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:310	7008	6875110	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6875110'
+312	229	6831376	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:312	229	6831376	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6831376'
+314	6054	5425486	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:314	6054	5425486	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5425486'
+316	16	6920252	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:316	16	6920252	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6920252'
+317	25	7128068	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:317	25	7128068	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7128068'
+318	103	6836585	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:318	103	6836585	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6836585'
+319	111	6907205	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:319	111	6907205	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6907205'
+320	121	7091267	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:320	121	7091267	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7091267'
+321	123	6909758	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:321	123	6909758	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6909758'
+322	133	4928930	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:322	133	4928930	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4928930'
+323	130	5017534	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:323	130	5017534	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5017534'
+325	132	5154279	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:325	132	5154279	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5154279'
+327	166	4987048	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:327	166	4987048	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4987048'
+328	180	5254957	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:328	180	5254957	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5254957'
+329	122	5108281	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:329	122	5108281	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5108281'
+330	197	6667696	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:330	197	6667696	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6667696'
+333	196	5289117	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:333	196	5289117	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5289117'
+337	220	6715021	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:337	220	6715021	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6715021'
+339	232	6671713	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:339	232	6671713	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6671713'
+341	252	6700964	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:341	252	6700964	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6700964'
+343	259	7364573	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:343	259	7364573	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7364573'
+344	293	7491268	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:344	293	7491268	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7491268'
+345	311	6677243	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:345	311	6677243	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6677243'
+346	426	7169326	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:346	426	7169326	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7169326'
+349	462	5466989	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:349	462	5466989	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5466989'
+352	133	6752607	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:352	133	6752607	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6752607'
+353	246	7485590	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:353	246	7485590	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7485590'
+355	130	7347205	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:355	130	7347205	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7347205'
+356	409	5161803	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:356	409	5161803	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5161803'
+357	465	4885863	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:357	465	4885863	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4885863'
+358	513	5043867	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:358	513	5043867	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5043867'
+359	553	6687000	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:359	553	6687000	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6687000'
+361	547	4864608	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:361	547	4864608	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4864608'
+363	576	6905042	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:363	576	6905042	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6905042'
+364	580	6855384	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:364	580	6855384	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6855384'
+365	606	6781309	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:365	606	6781309	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6781309'
+366	664	7081071	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:366	664	7081071	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7081071'
+367	685	5456684	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:367	685	5456684	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5456684'
+368	689	5205923	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:368	689	5205923	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5205923'
+369	690	6681276	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:369	690	6681276	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6681276'
+370	775	6916901	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:370	775	6916901	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6916901'
+372	793	7135216	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:372	793	7135216	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7135216'
+373	843	6792402	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:373	843	6792402	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6792402'
+374	850	5380609	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:374	850	5380609	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5380609'
+375	856	6871177	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:375	856	6871177	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6871177'
+376	875	7141879	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:376	875	7141879	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7141879'
+377	887	6794529	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:377	887	6794529	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6794529'
+378	896	6895982	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:378	896	6895982	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6895982'
+379	904	7133915	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:379	904	7133915	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7133915'
+380	913	7350757	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:380	913	7350757	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7350757'
+381	918	6976567	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:381	918	6976567	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6976567'
+382	920	7095635	Accession number found in MRI_MARTEL
+383	921	6997232	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:383	921	6997232	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6997232'
+384	937	7144673	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:384	937	7144673	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7144673'
+385	956	5062341	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:385	956	5062341	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5062341'
+386	900	6699226	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:386	900	6699226	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6699226'
+387	6029	6772981	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:387	6029	6772981	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6772981'
+388	6054	5425486	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:388	6054	5425486	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/5425486'
+390	7011	6918051	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:390	7011	6918051	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6918051'
+391	7024	6805356	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:391	7024	6805356	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6805356'
+392	7029	7014263	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:392	7029	7014263	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7014263'
+393	7030	7538617	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:393	7030	7538617	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7538617'
+395	7045	6760802	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:395	7045	6760802	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6760802'
+396	7054	4724297	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:396	7054	4724297	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/4724297'
+397	7066	6715383	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:397	7066	6715383	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6715383'
+398	7066	7395276	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:398	7066	7395276	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7395276'
+399	7085	7616788	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:399	7085	7616788	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7616788'
+400	7088	7066921	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:400	7088	7066921	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7066921'
+401	7094	7171259	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:401	7094	7171259	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7171259'
+402	7096	6869668	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:402	7096	6869668	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6869668'
+404	7097	6805449	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:404	7097	6805449	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6805449'
+407	7110	7066856	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:407	7110	7066856	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7066856'
+408	7127	6989740	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:408	7127	6989740	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/6989740'
+409	7151	7557684	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:409	7151	7557684	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7557684'
+410	7043	7119983	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:410	7043	7119983	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7119983'
+411	3004	7691918	Accession number found in MRI_MARTEL
+Adding to biomatrix series table ERROR:411	3004	7691918	[Error 32] The process cannot access the file because it is being used by another process: 'Z:\\Cristina\\Pipeline4Archive\\Get_Anonymized_Accession_annot2db\\querydata_Database/7691918'

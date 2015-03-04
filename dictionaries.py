@@ -6,10 +6,10 @@ Created on Thu Jan 17 10:33:35 2013
 # Modified by Cristina Gallego - April 26-2013
 """
 #computer-dependent variables, should be changed before use of code
-my_aet='SMIALBCAD2'
+my_aet='IPL1'
 local_port='5006'
 my_port='5006'
-hostID = '142.76.30.200'
+hostID = '142.76.29.129'
 
 remote_aet='MRI_MARTEL'
 remote_IP='142.76.29.187'
