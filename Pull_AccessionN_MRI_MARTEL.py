@@ -7,7 +7,7 @@ import itertools
 import glob ##Unix style pathname pattern expansion
 import time
 import shlex, subprocess
-from dictionaries import program_loc, data_loc, my_aet, hostID, local_port, clinical_aet, clinical_IP, clinical_port, remote_aet, remote_IP, remote_port
+from dictionaries import program_loc, img_folder, my_aet, hostID, local_port, clinical_aet, clinical_IP, clinical_port, remote_aet, remote_IP, remote_port
 
 # ******************************************************************************
 print '''
@@ -32,10 +32,8 @@ def get_only_filesindirectory(mydir):
      return [name for name in os.listdir(mydir) 
             if os.path.isfile(os.path.join(mydir, name))]
             
-def getDICOMS_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, PatientID, StudyID, AccessionN, countImages=False):
+def getDICOMS_pacs(path_rootFolder, img_folder, remote_aet, remote_port, remote_IP, local_port, PatientID, StudyID, AccessionN, countImages=False):
         
-    img_folder = os.getcwd() #'Z:'+os.sep+'Cristina'+os.sep+'Pipeline4Archive' 
-
     # Create fileout to print listStudy information
     # if StudyID folder doesn't exist create it
     os.chdir(str(img_folder))
@@ -290,7 +288,7 @@ if __name__ == '__main__':
                 # Call each one of these functions
                 # 1) Pull StudyId/AccessionN pair from pacs
                 # 2) Annonimize StudyId/AccessionN pair from pacs
-                getDICOMS_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, PatientID, StudyID, AccessionN, countImages=False)                        
+                getDICOMS_pacs(path_rootFolder, img_folder, remote_aet, remote_port, remote_IP, local_port, PatientID, StudyID, AccessionN, countImages=False)                        
             
         finally:
             file_ids.close()

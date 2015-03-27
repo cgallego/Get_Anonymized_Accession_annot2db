@@ -22,6 +22,8 @@ clinical_port='104'
 program_loc='Z:\Cristina\Pipeline4Archive\Get_Anonymized_Accession_annot2db'
 data_loc='Z:\Cristina\Pipeline4Archive\Get_Anonymized_Accession_annot2db\querydata_Database'
 annotrevealer_loc = 'Z:\Cristina\Pipeline4Archive\Get_Anonymized_Accession_annot2db\Annotrevealer\Annotrevealer_log.txt'
+img_folder = 'C:\Users\windows\Documents'
+
 
 biomatrix_user='biomatrix_ruser_mri_cad'
 biomatrix_password='bi0matrix4mricadSTUDY'

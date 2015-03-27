@@ -4,5 +4,4 @@
 /querydata
 /querydata_Database
 /annot/annot_imgs
-.pyc
-.exe
+*.pyc
