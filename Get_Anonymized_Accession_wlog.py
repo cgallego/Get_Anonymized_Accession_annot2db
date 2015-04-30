@@ -391,19 +391,13 @@ def pull_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, P
             nextline = readPulledFiles.readline()
     readPulledFiles.close()
     
-    print "\n************************************************"
-    print 'ListOfSeriesGroup'
-    print ListOfSeriesGroup
-    
-    print 'ListOfSeriesGroup'
-    ListOfSeriesGroupRev
-    
-    print 'ListOfSeriesGroup'
-    ListOfSeriesPairs
-    
+    print "\n************************************************"    
     # Make a compact dictionary for {ListOfSeriesGroup}.
     ListOfSeriesGroupUnique = dict(ListOfSeriesGroup) #ListOfSeriesGroup:
     ListOfSeriesGroupUniqueRev = dict(ListOfSeriesGroupRev)
+    
+    print 'ListOfSeriesGroup'
+    print ListOfSeriesGroupUnique
     
     # Make a compact dictionary\tuple for {ListOfSeriesPairs}.
     outlines = outlines + '------ListOfSeriesPairs---------'+ '\n'
@@ -452,13 +446,23 @@ def pull_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, P
         writeSortedPulledFile.close()   
     
     #################################################################
-    # 3rd-Part: Anonymize/Modify images.                  #
-    # (0020,000D),StudyUID  (0020,000e),SeriesUID                   #
-    # (0010,0010),PatientName/ID                                    #
-    # (0012,0021),"BRCA1F"  (0012,0040),StudyNo                     #
-    #################################################################
-    print 'Anonymize images at cwd: ' + os.getcwd()
-    
+    # 3rd-Part: Anonymize/Modify images.                            
+    # (0020,000D),StudyUID  (0020,000e),SeriesUID                   
+    # Compulsory ANNON person names
+    # (0010,0010)   PatientName/ID   
+    # (0008, 0090)  ref physician name tag
+    # (0008, 1050)  performing physician
+    # (0008, 1060)	phy read study
+    # (0008, 1070)	operator name
+    ### PRIVATE TAGS
+    # (0032, 1032)	ref physician name tag
+    # Table D.1.1 - Basic application Level confidentiality profile attributes list (to annonimize)
+    # (0010,0030) - Patient's Birth Date
+    # (0010,1000) - Other Patient IDs
+    # (0010,1001) - Other Patient Names
+    # include                             
+    # (0012,0021),"BRCA1F"  (0012,0040),StudyNo                     
+    #################################################################    
     # Make anonymized UID.
     print 'Check out system date/time to form StudyInstUID and SeriesInstUID ' # time.localtime() 
     tt= time.time() # time(). e.g. '1335218455.013'(14), '1335218447.9189999'(18)
@@ -483,25 +487,46 @@ def pull_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, P
         tt= time.time() 
         shorttime = '%10.7f' % (tt)     
         anonySeriesUID = SRI_DCM_UID + '' + shorttime + '' + shostID + v + '%#02d' % (sIndex)       
-        #print 'key -> ', v, '\t', 'anonySeriesUID->', anonySeriesUID, # '\n' '\t\t\t', k    
+        print 'anonySeriesUID -> ', v, '\t', 'anonySeriesUID->', anonySeriesUID, # '\n' '\t\t\t', k    
 
         for SeriesPair in ListOfSeriesPairs:
             #print SeriesPair
             if SeriesPair[1] == k: # v:
-                #print SeriesPair[1], '\t\t', v #, '\n' ###[0], '\t\t', k #, '\n'
+                print SeriesPair[1], '\t\t', v
                 imagefList.append(SeriesPair[0])                
                 
-                cmd = program_loc+os.sep+'dcmodify -gin -m "(0020,000D)=' + anonyStudyUID + '" -m "(0020,000e)=' + anonySeriesUID + '" \
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0020,000D)=' + anonyStudyUID + '" -m "(0020,000e)=' + anonySeriesUID + '" \
                 -m "(0010,0010)=' + aPatientName + '" -m "(0010,0020)=' + aPatientID +'" \
-                -m "(0008, 0090)="Anon" -m "(0008, 1070)="Anon"  -m "(0033, 1013)="Anon"  -m "(0033, 1019)="Anon" \
-                -i "(0012,0021)=BRCA1F" -i "(0012,0040)=' + ClinicTrialNo + '" ' + SeriesPair[0] + ' > outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt'     
-                # private tags removed: -m "(0008, 1050)="Anon" -m "(0032, 1032)="Anon" -m "(0033, 1016)="Anon"-m "(0033, 101c)="Anon"
+                -ma "(0008,0090)=' + " " + '" -ma "(0008,1050)=' + " " + '" -ma "(0008,1060)=' + " " + '" -ma "(0008,1070)=' + " " + '"\
+                -ma "(0010,0030)=' + " " + '" -ma "(0010,1000)=' + " " + '" -ma "(0010,1001)=' + " " + '"\
+                -i "(0012,0040)=' + ClinicTrialNo + '" ' + SeriesPair[0] + '  > outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt'    
                 lines = os.system(cmd)
+                
+                # deal with private tags (-ie options not available in current version)
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0032,1032)=' + " " + '" ' + SeriesPair[0]
+                lines = os.system(cmd)
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1002)=' + " " + '" ' + SeriesPair[0]
+                lines = os.system(cmd)
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1013)=' + " " + '" ' + SeriesPair[0]
+                lines = os.system(cmd)
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1016)=' + " " + '" ' + SeriesPair[0]
+                lines = os.system(cmd)
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1019)=' + " " + '" ' + SeriesPair[0]
+                lines = os.system(cmd)
+                
+                # less common ones
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1006)=' + " " + '" ' + SeriesPair[0]
+                lines = os.system(cmd)
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1008)=' + " " + '" ' + SeriesPair[0]
+                lines = os.system(cmd)
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,100A)=' + " " + '" ' + SeriesPair[0]
+                lines = os.system(cmd)
+                
                 
         print '(', len(imagefList), ' images are anonymized.)'
         
     print 'Total Series: ' + str(len(ListOfSeriesGroupUniqueRev)) + '\n';
-    print 'cmd -> ' + cmd + '\n'    
+    
     
     ##########################################################################
     # Clean files
@@ -565,7 +590,6 @@ def pull_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, P
             nextline = readAnonDicomFile.readline()
     readAnonDicomFile.close()
     
-    #
     # Make a compact dictionary for {ListOfSeriesGroup}.
     ListOfSeriesGroupUnique = dict(ListOfSeriesGroup) #ListOfSeriesGroup:
     ListOfSeriesGroupUniqueRev = dict(ListOfSeriesGroupRev)
@@ -643,7 +667,7 @@ def pull_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, P
     ###################################################################
     print " imagepath -> ", imagepath
     cmd = program_loc+os.sep+'storescu -v -aet ' + my_aet + ' -aec ' + remote_aet + ' ' + remote_IP + \
-        ' ' + remote_port + ' "' + imagepath + '" > outcome'+os.sep+'push_results.txt' # ' C:\\BMRIWorker\\Temp\\2211321SHSC\\*.dcm 
+        ' ' + remote_port + ' "' + imagepath + '" > outcome'+os.sep+'push_results.txt' 
     
     print "Push exam to destination (no exam found at destination). " 
     print "cmd -> " + cmd
@@ -654,7 +678,6 @@ def pull_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, P
     print "This Exam is on archived succesfully."
     
     #########################Loop for iExamPair ####################################
-    
     #Cleanup the tmp directory.
     try:
         if os.path.isdir(StudyID):
@@ -691,7 +714,7 @@ if __name__ == '__main__':
         [INPUTS]
             Exam_list.txt (required) sys.argv[1] 
         """
-        exit() #if argc <= 2 | 0:
+        exit() #if argc <= 2 or 0:
     else:        
             
         # Open filename list
@@ -712,13 +735,12 @@ if __name__ == '__main__':
                 # Call each one of these functions
                 # 1) Pull StudyId/AccessionN pair from pacs
                 flagchk = check_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, PatientID, StudyID, AccessionN)
-                flagchk = 1                                                    
+                                                
                 if flagchk:
                     # 2) Annonimize StudyId/AccessionN pair from pacs
-                    #flagpush = pull_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, PatientID, StudyID, AccessionN)
-                    flagpush=1            
+                    flagpush = pull_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, PatientID, StudyID, AccessionN)
+                
                     # 3) Warite to Series/Level table in biomatrix 
-                    #exam_loc = program_loc+os.sep+str(StudyID)+os.sep+str(AccessionN)
                     if flagpush:
                         update_table(PatientID, StudyID, AccessionN) 
                             
