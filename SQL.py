@@ -46,6 +46,7 @@ class Table(Base):
     img_orientation_int=sqlalchemy.Column(sqlalchemy.Integer)
     orientation_txt=sqlalchemy.Column(sqlalchemy.Text)
     a_no_txt=sqlalchemy.Column(sqlalchemy.Text)
+    study_description_txt=sqlalchemy.Column(sqlalchemy.Text)
     updated_on=sqlalchemy.Column(sqlalchemy.DateTime,\
                 default=sqlalchemy.func.now())  #func.now causes auto-update
     
@@ -57,6 +58,7 @@ class Table(Base):
         self.exam_img_dicom_txt=obj.DICOMnum
         self.series_uid_txt=obj.UID
         self.series_desc_txt=obj.series
+        self.study_description_txt=obj.study
         self.translation_txt=obj.translation
         self.type_int=obj.type
         self.processed_yn=obj.processed

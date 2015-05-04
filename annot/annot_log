@@ -19330,3 +19330,111 @@ pt_exam_finding: None
 im_file: Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7119983\annot7119983_10601_22_0.jpeg
 URL: Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs/7119983/annot7119983_10601_22_0.jpeg
 
+Image processed C:/Users/martel_group/PACS_pipelines/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7578736\annot7578736_7_33_0.jpeg
+id: 1583
+accession: 7578736
+orig: CALIPER\\262\213\244\213\\\\\\\0.6641\0.6641\MM\0 
+form: 0
+series: 7
+x1: 262
+y1: 213
+x2: 244
+y2: 213
+slice: 33
+X: 76.4252
+Y: 13.4607
+Z: 1.6507
+pt_exam_finding: None
+im_file: C:/Users/martel_group/PACS_pipelines/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7578736\annot7578736_7_33_0.jpeg
+URL: C:/Users/martel_group/PACS_pipelines/Get_Anonymized_Accession_annot2db/annot/annot_imgs/7578736/annot7578736_7_33_0.jpeg
+
+Image processed C:/Users/martel_group/PACS_pipelines/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7578736\annot7578736_10601_38_0.jpeg
+id: 1584
+accession: 7578736
+orig: CALIPER\\390\69\379\106\\\\\\\0.4102\0.4102\MM\0
+form: 0
+series: 10601
+x1: 390
+y1: 69
+x2: 379
+y2: 106
+slice: 38
+X: 77.4375
+Y: 18.5389
+Z: 2.32933
+pt_exam_finding: None
+im_file: C:/Users/martel_group/PACS_pipelines/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7578736\annot7578736_10601_38_0.jpeg
+URL: C:/Users/martel_group/PACS_pipelines/Get_Anonymized_Accession_annot2db/annot/annot_imgs/7578736/annot7578736_10601_38_0.jpeg
+
+Image processed C:/Users/martel_group/PACS_pipelines/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7578736\annot7578736_10603_38_0.jpeg
+id: 1585
+accession: 7578736
+orig: LINEARROW\\347\99\363\93\1\\\\\\\\\0
+form: 1
+series: 10603
+x1: 347
+y1: 99
+x2: 363
+y2: 93
+slice: 38
+X: 75.1814
+Y: 9.7196
+Z: 2.32933
+pt_exam_finding: None
+im_file: C:/Users/martel_group/PACS_pipelines/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7578736\annot7578736_10603_38_0.jpeg
+URL: C:/Users/martel_group/PACS_pipelines/Get_Anonymized_Accession_annot2db/annot/annot_imgs/7578736/annot7578736_10603_38_0.jpeg
+
+Image processed Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7578736\annot7578736_10603_38_0.jpeg
+id: 892
+accession: 7578736
+orig: LINEARROW\\347\99\363\93\1\\\\\\\\\0
+form: 1
+series: 10603
+x1: 347
+y1: 99
+x2: 363
+y2: 93
+slice: 38
+X: 75.1814
+Y: 9.7196
+Z: 2.32933
+pt_exam_finding: None
+im_file: Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7578736\annot7578736_10603_38_0.jpeg
+URL: Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs/7578736/annot7578736_10603_38_0.jpeg
+
+Image processed Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7578736\annot7578736_7_33_0.jpeg
+id: 893
+accession: 7578736
+orig: CALIPER\\262\213\244\213\\\\\\\0.6641\0.6641\MM\0 
+form: 0
+series: 7
+x1: 262
+y1: 213
+x2: 244
+y2: 213
+slice: 33
+X: 76.4252
+Y: 13.4607
+Z: 1.6507
+pt_exam_finding: None
+im_file: Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7578736\annot7578736_7_33_0.jpeg
+URL: Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs/7578736/annot7578736_7_33_0.jpeg
+
+Image processed Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7578736\annot7578736_10601_38_0.jpeg
+id: 894
+accession: 7578736
+orig: CALIPER\\390\69\379\106\\\\\\\0.4102\0.4102\MM\0
+form: 0
+series: 10601
+x1: 390
+y1: 69
+x2: 379
+y2: 106
+slice: 38
+X: 77.4375
+Y: 18.5389
+Z: 2.32933
+pt_exam_finding: None
+im_file: Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs\7578736\annot7578736_10601_38_0.jpeg
+URL: Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs/7578736/annot7578736_10601_38_0.jpeg
+

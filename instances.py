@@ -17,13 +17,13 @@ def objects(examID,exam_loc):
     Takes in examID and exam_loc as strings.
     Returns a list of Series's objects. 
     """
-    series,filenames,user=query.harddrive(exam_loc) #needs dicom files only
+    study,series,filenames,user=query.harddrive(exam_loc) #needs dicom files only
     objects=[]
     
     print 'Creating objects...'
     j=0
     while j<len(series):
-        objects.append(Series(series[j],filenames[j],examID,exam_loc))
+        objects.append(Series(study,series[j],filenames[j],examID,exam_loc))
         j+=1
     
     counter.count(objects,exam_loc,user)

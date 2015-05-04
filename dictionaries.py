@@ -43,6 +43,7 @@ os_type='Windows'     #can be 'Windows' or 'Linux'
 annot_dir = "Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs" # output images
 annot_URL = "Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_imgs" # fake URL root
 annot_con = 'sqlite+pysqlite:///Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/localannot.db3' # DB file
+annot_log = 'Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_log' # annot_log file
                    
 
 """

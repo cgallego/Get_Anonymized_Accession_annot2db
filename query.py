@@ -21,12 +21,12 @@ def queries(examID):
     
     if os_type=='Windows':
         #gets InstanceUID, SeriesDescription, and SeriesUID for each series
-        cmd=program_loc+os.sep+'findscu -S -k 0008,0018="" -k 0008,103e="" -k 0020,000e="" '+\
+        cmd=program_loc+os.sep+'findscu -S -k 0008,0018="" -k 0008,1030="" -k 0008,103e="" -k 0020,000e="" '+\
             '-k 0008,0050='+examID+' -k 0008,0052="SERIES" -aet '+my_aet+\
             ' -aec '+remote_aet+' '+remote_IP+' '+remote_port+' > querydata'+\
             examID
     elif os_type=='Linux':
-        cmd=program_loc+os.sep+'findscu -S -k 0008,0018="" -k 0008,103e="" -k 0020,000e="" '+\
+        cmd=program_loc+os.sep+'findscu -S -k 0008,0018="" -k 0008,1030=""  -k 0008,103e="" -k 0020,000e="" '+\
             '-k 0008,0050='+examID+' -k 0008,0052="SERIES" -aet '+my_aet+\
             ' -aec '+remote_aet+' '+remote_IP+' '+remote_port+\
             ' 2> querydata'+examID
@@ -131,14 +131,16 @@ def harddrive(exam_loc):
     
     usable_files=[]
     UIDs=[]                  #keeps track of the UIDs already used
+    study=[]
     series=[]
     counters={}
-  
+      
     for x in filenames:
         if x != 'No Data.txt':
             data=dicom.read_file(x)
             if not usable_files:
                 usable_files.append(x)
+                study = data['0008','1030'].value
                 UIDs.append(data['0020','000e'].value)
                 series.append(data['0008','103e'].value)
                 counters[data.SeriesInstanceUID]=0
@@ -160,6 +162,9 @@ def harddrive(exam_loc):
         if counters[i]>1:
             user=1
             break
+
+    print "=========\n Now adding Study Description:"
+    print study
     print series
 
-    return series, usable_files, user
+    return study, series, usable_files, user

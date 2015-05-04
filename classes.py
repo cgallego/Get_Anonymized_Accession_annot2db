@@ -11,7 +11,7 @@ import numpy
 import os
 
 class Series():
-    def __init__(self,series_descrip,filename,examID,exam_loc):
+    def __init__(self,study_descrip,series_descrip,filename,examID,exam_loc):
         """
         Creates each object (series). Calls every other function to set up the
         attributes. Each attribute represents a column of data in the table.
@@ -19,6 +19,7 @@ class Series():
         strings.
         """
         #this order matters
+        self.study=study_descrip
         self.series=series_descrip
         self.filename=filename
         self.loc=exam_loc

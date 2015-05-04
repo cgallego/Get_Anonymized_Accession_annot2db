@@ -9,7 +9,7 @@ import shlex, subprocess
 import SQL, query
 from dictionaries import data_loc, program_loc, my_aet, hostID, local_port, clinical_aet, clinical_IP, clinical_port, remote_aet, remote_IP, remote_port
 # support for annotations
-from dictionaries import annot_dir, annot_URL, annot_con
+from dictionaries import annot_dir, annot_URL, annot_con, annot_log
 import main_annot
 
 
@@ -33,7 +33,7 @@ usage:     python Get_Anonymized_DicomExam.py Exam_list.txt
 '''
 def process_annots(exam_loc):
     test_pars = {'directory':exam_loc, 'im_path':annot_dir, 'URLroot':annot_URL, 
-                    'logfile':'Z:/Cristina/Pipeline4Archive/Get_Anonymized_Accession_annot2db/annot/annot_log', 
+                    'logfile':annot_log, 
                     'sql':annot_con,
                     'logmode':'a',
                     'clobber':True,
@@ -55,7 +55,7 @@ def update_table(PatientID, StudyID, accession):
     print "\nProcess annotations... if any save to image and database"  
     process_annots(exam_loc)    
     try:
-        #SQL.run_code(accessnum, exam_loc)
+        SQL.run_code(accessnum, exam_loc)
         print "done.. now Deleting local images"
         try:
             
@@ -503,15 +503,15 @@ def pull_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, P
                 lines = os.system(cmd)
                 
                 # deal with private tags (-ie options not available in current version)
-                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0032,1032)=' + " " + '" ' + SeriesPair[0]
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0032,1032)=' + " " + '" ' + SeriesPair[0] + '  > outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt' 
                 lines = os.system(cmd)
-                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1002)=' + " " + '" ' + SeriesPair[0]
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1002)=' + " " + '" ' + SeriesPair[0] + '  > outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt' 
                 lines = os.system(cmd)
-                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1013)=' + " " + '" ' + SeriesPair[0]
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1013)=' + " " + '" ' + SeriesPair[0] + '  > outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt' 
                 lines = os.system(cmd)
-                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1016)=' + " " + '" ' + SeriesPair[0]
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1016)=' + " " + '" ' + SeriesPair[0] + '  > outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt' 
                 lines = os.system(cmd)
-                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1019)=' + " " + '" ' + SeriesPair[0]
+                cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1019)=' + " " + '" ' + SeriesPair[0] + '  > outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt' 
                 lines = os.system(cmd)
                 
                 # less common ones
