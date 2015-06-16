@@ -18,6 +18,7 @@ def get_annot(h):
     DICOM, if they exist."""
     val = h.get((0x029, 0x1300),None)
     if val:
+        print val
         x,y = val.value.split('\\')[2:4]
         out = dicom_coords.data_dicom([0,int(y),int(x)],h)
         val = val.value + "\\%s"%repr(out)
@@ -90,7 +91,11 @@ metadata will be edited, and logfile will be updated.
         try:
             f = dicom.read_file(os.sep.join([pars['directory'],myfile]))
             annots = get_annot(f)
+            if(annots):
+                print "------------------------------------"
+                print myfile
             for i,ann in enumerate(annots):
+                print ann
                 ending = "annot%s_%s_%s_%s.jpeg"%(f.AccessionNumber,f.SeriesNumber,f.InstanceNumber,i)
                 acc = "".join([a for a in f.AccessionNumber if a.isdigit()])
                 pars['im_file'] = os.sep.join([pars['im_path'], acc, ending])
@@ -125,7 +130,6 @@ Produce image and save to disc
     
     x1,y1 = ann[-2][[indx,indy]]
     x2,y2 = ann[-1][[indx,indy]]
-    
     if ann[0]=='CALIPER':
         ax.plot([x1, x2], [y1,y2], marker='s', mfc='g', ms=5, ls=':', lw=0.8, c='g')
         d = np.sqrt((ann[2] - ann[4])**2*ann[12]**2 + ( ann[3] - ann[5] )**2*ann[13]**2)
@@ -140,7 +144,6 @@ Produce image and save to disc
         e.set_clip_box(ax.bbox)
         ax.add_artist(e)
     else:
-        print ann
         ValueError("New type!")
         
     ax.set_xbound(minx,maxx)

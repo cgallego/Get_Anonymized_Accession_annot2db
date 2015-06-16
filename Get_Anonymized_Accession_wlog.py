@@ -479,6 +479,8 @@ def pull_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, P
     #For Loop: every Series# with the Exam# in Anonymizing  
     sIndex = 0  
     ClinicTrialNo = StudyID.strip()
+    clinicalTrialSponsor = 'SRI'
+    clinicalTrialProtocolID = 'BreastCAD'
     print 'ClinicTrialNo: "' + ClinicTrialNo + '"'
     print 'Begin Modify ....' ;
     for k,v in ListOfSeriesGroupUniqueRev.iteritems():
