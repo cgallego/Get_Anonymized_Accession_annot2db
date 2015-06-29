@@ -10,13 +10,13 @@ Created on Thu Jan 17 10:33:35 2013
 my_aet='IPL1'
 local_port='5006'
 my_port='5006'
-hostID = '142.76.29.129'
+hostID = '142.76.26.129'
 
 # rad station
-my_aet='SMIALBCAD2'
-local_port='5006'
-my_port='5006'
-hostID = '142.76.30.200'
+#my_aet='SMIALBCAD2'
+#local_port='5006'
+#my_port='5006'
+#hostID = '142.76.30.200'
 
 # research pacs
 remote_aet='MRI_MARTEL'

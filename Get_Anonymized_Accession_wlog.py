@@ -499,6 +499,7 @@ def pull_pacs(path_rootFolder, remote_aet, remote_port, remote_IP, local_port, P
                 
                 cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0020,000D)=' + anonyStudyUID + '" -m "(0020,000e)=' + anonySeriesUID + '" \
                 -m "(0010,0010)=' + aPatientName + '" -m "(0010,0020)=' + aPatientID +'" \
+                -i "(0012,0010)=' + clinicalTrialSponsor + '" -i "(0012,0020)=' + clinicalTrialProtocolID +'" \
                 -ma "(0008,0090)=' + " " + '" -ma "(0008,1050)=' + " " + '" -ma "(0008,1060)=' + " " + '" -ma "(0008,1070)=' + " " + '"\
                 -ma "(0010,0030)=' + " " + '" -ma "(0010,1000)=' + " " + '" -ma "(0010,1001)=' + " " + '"\
                 -i "(0012,0040)=' + ClinicTrialNo + '" ' + SeriesPair[0] + '  > outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt'    

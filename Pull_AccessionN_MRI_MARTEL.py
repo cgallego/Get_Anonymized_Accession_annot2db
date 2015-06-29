@@ -241,11 +241,201 @@ def getDICOMS_pacs(path_rootFolder, img_folder, remote_aet, remote_port, remote_
         # All of that is documented in detail in pa  rt 4 of the DICOM standard.
         p1 = subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE)
         p1.wait()
+   
+        ##############################################
+        print 'Next, to group "raw" image files into a hierarchical. ...'
+        imagepath = os.getcwd() + '\\MR*.*'
+        print 'imagepath: ', imagepath
         
+        # Group all image files into a number of series for StudyUID/SeriesUID generation.
+        cmd = program_loc+os.sep+'dcmdump +f -L +F +P "0020,000e" +P "0020,0011" "' + imagepath + '" > '+program_loc+os.sep+'outcome'+os.sep+'pulledDicomFiles.txt'  
+        print 'cmd -> ' + cmd
+        print 'Begin SortPulledDicom ....' ;
+        lines = os.system(cmd) 
+            
+        readPulledFiles = open(program_loc+os.sep+'outcome'+os.sep+'pulledDicomFiles.txt', 'r')
+        ListOfSeriesGroup    = [] ; # [SeriesNo, SeriesUID] # SeriesNumber
+        ListOfSeriesGroupRev = [] ; # [SeriesUID, SeriesNo]     
+        ListOfSeriesPairs    = [] ; # [imageFn, SeriesUID]
+        #ListOfExamsID = []
+        outlines = ""
+        nextline = readPulledFiles.readline()
+        while ( nextline ) : # readPulledFiles.readlines()):
+            if 'dcmdump' in nextline:   #Modality
+                item = nextline; #[0] 
+                imageFn = item[item.find(')')+2 : item.find('\n')]      
+                
+                nextline = readPulledFiles.readline() # ( 'SeriesNumber' : #(0020,0011) IS
+                item = nextline; #[0] 
+                SeriesNo = item[item.find('[')+1:item.find(']')]
+                
+                nextline =  readPulledFiles.readline() # ( 'SeriesInstanceUID' :    #(0020,000e) SH
+                item = nextline; #[0]
+                SeriesUID = item[item.find('[')+1:item.find(']')]
+                    
+                '''---------------------------------------'''
+                ListOfSeriesGroup.append([SeriesNo, SeriesUID])
+                ListOfSeriesGroupRev.append([SeriesUID, SeriesNo])
+                ListOfSeriesPairs.append([imageFn, SeriesUID])
+                
+                nextline = readPulledFiles.readline()
+            else:
+                nextline = readPulledFiles.readline()
+        readPulledFiles.close()
+        
+        print "\n************************************************"    
+        # Make a compact dictionary for {ListOfSeriesGroup}.
+        ListOfSeriesGroupUnique = dict(ListOfSeriesGroup) #ListOfSeriesGroup:
+        ListOfSeriesGroupUniqueRev = dict(ListOfSeriesGroupRev)
+        
+        print 'ListOfSeriesGroup'
+        print ListOfSeriesGroupUnique
+        
+        # Make a compact dictionary\tuple for {ListOfSeriesPairs}.
+        outlines = outlines + '------ListOfSeriesPairs---------'+ '\n'
+        for SeriesPair in ListOfSeriesPairs:
+            outlines = outlines + SeriesPair[0] + ', ' + SeriesPair[1] + '\n';
+                
+        outlines = outlines + 'Size: ' + str(len(ListOfSeriesPairs)) + '\n\n';
+        outlines = outlines + '------ListOfSeriesGroup---------' + '\n'
+        
+        #for SeriesPair in ListOfSeriesGroup:
+        #   outlines = outlines + SeriesPair[0] + ', ' + SeriesPair[1] + '\n';
+        for k,v in ListOfSeriesGroupUnique.iteritems():
+            outlines = outlines + k + ', \t\t' + v + '\n';
+        outlines = outlines + 'Size: ' + str(len(ListOfSeriesGroupUnique)) + '\n\n';
+        
+        outlines = outlines + '------ListOfSeriesGroupRev---------' + '\n'
+    
+        #Calculate total number of the files of each series
+        for k,v in ListOfSeriesGroupUniqueRev.iteritems():
+            imagefList = []
+            #print 'key -> ', v, # '\n'
+            for SeriesPair in ListOfSeriesPairs:
+                if SeriesPair[1] == k: # v:
+                    #print SeriesPair[1], '\t\t', v 
+                    imagefList.append(SeriesPair[0])  
+                    
+            outlines = outlines + k + ', \t\t' + v + '\t\t' + str(len(imagefList)) + '\n';
+            
+        outlines = outlines + 'Size: ' + str(len(ListOfSeriesGroupUniqueRev)) + '\n\n';
+        #outlines = outlines + 'StudyInstanceUID: ' + str(iExamUID) + '\n';
+        outlines = outlines + '\n\n------ListOfSeriesGroup::image files---------' + '\n'
+    
+        #List all files of each series
+        for k,v in ListOfSeriesGroupUniqueRev.iteritems():
+            imagefList = []     
+            for SeriesPair in ListOfSeriesPairs:
+                if SeriesPair[1] == k: # v:
+                    imagefList.append(SeriesPair[0])                
+                    #outlines = outlines + SeriesPair[0] + '\n';
+            outlines = outlines + k + ', \t\t' + v + '\t\t' + str(len(imagefList)) + '\n\n';
+    
+        writeSortedPulledFile = open(program_loc+os.sep+'outcome'+os.sep+'sortedPulledDicomFiles.txt', 'w')    
+        try:
+            writeSortedPulledFile.writelines(outlines)
+        finally:
+            writeSortedPulledFile.close()   
+        
+        #################################################################
+        # 3rd-Part: Anonymize/Modify images.                            
+        # (0020,000D),StudyUID  (0020,000e),SeriesUID                   
+        # Compulsory ANNON person names
+        # (0010,0010)   PatientName/ID   
+        # (0008, 0090)  ref physician name tag
+        # (0008, 1050)  performing physician
+        # (0008, 1060)	phy read study
+        # (0008, 1070)	operator name
+        ### PRIVATE TAGS
+        # (0032, 1032)	ref physician name tag
+        # Table D.1.1 - Basic application Level confidentiality profile attributes list (to annonimize)
+        # (0010,0030) - Patient's Birth Date
+        # (0010,1000) - Other Patient IDs
+        # (0010,1001) - Other Patient Names
+        # include                             
+        # (0012,0021),"BRCA1F"  (0012,0040),StudyNo                     
+        #################################################################    
+        # Make anonymized UID.
+        print 'Check out system date/time to form StudyInstUID and SeriesInstUID ' # time.localtime() 
+        tt= time.time() # time(). e.g. '1335218455.013'(14), '1335218447.9189999'(18)
+        shorttime = '%10.5f' % (tt)         # This only works for Python v2.5. You need change if newer versions.
+        SRI_DCM_UID = '1.2.826.0.1.3680043.2.1009.'
+        hostIDwidth = len(hostID)    
+        shostID = hostID[hostIDwidth-6:hostIDwidth] # Take the last 6 digits
+        
+        anonyStudyUID = SRI_DCM_UID + shorttime + '.' + hostID + str(AccessionN).strip() ;
+        print 'anonyStudyUID->', anonyStudyUID, '\n'
+        aPatientID = StudyID + 'CADPat' 
+        aPatientName = 'Patient ' + StudyID + 'Anon'
+    
+        #For Loop: every Series# with the Exam# in Anonymizing  
+        sIndex = 0  
+        ClinicTrialNo = StudyID.strip()
+        clinicalTrialSponsor = 'SRI'
+        clinicalTrialProtocolID = 'BreastCAD'
+        print 'ClinicTrialNo: "' + ClinicTrialNo + '"'
+        print 'Begin Modify ....' ;
+        for k,v in ListOfSeriesGroupUniqueRev.iteritems():
+            sIndex = sIndex + 1 
+            imagefList = []
+            tt= time.time() 
+            shorttime = '%10.7f' % (tt)     
+            anonySeriesUID = SRI_DCM_UID + '' + shorttime + '' + shostID + v + '%#02d' % (sIndex)       
+            print 'anonySeriesUID -> ', v, '\t', 'anonySeriesUID->', anonySeriesUID, # '\n' '\t\t\t', k    
+    
+            for SeriesPair in ListOfSeriesPairs:
+                #print SeriesPair
+                if SeriesPair[1] == k: # v:
+                    print SeriesPair[1], '\t\t', v
+                    imagefList.append(SeriesPair[0])                
+                    
+                    cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0020,000D)=' + anonyStudyUID + '" -m "(0020,000e)=' + anonySeriesUID + '" \
+                    -m "(0010,0010)=' + aPatientName + '" -m "(0010,0020)=' + aPatientID +'" \
+                    -i "(0012,0010)=' + clinicalTrialSponsor + '" -i "(0012,0020)=' + clinicalTrialProtocolID +'" \
+                    -ma "(0008,0090)=' + " " + '" -ma "(0008,1050)=' + " " + '" -ma "(0008,1060)=' + " " + '" -ma "(0008,1070)=' + " " + '"\
+                    -ma "(0010,0030)=' + " " + '" -ma "(0010,1000)=' + " " + '" -ma "(0010,1001)=' + " " + '"\
+                    -i "(0012,0040)=' + ClinicTrialNo + '" ' + SeriesPair[0] + '  > '+program_loc+os.sep+'outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt'    
+                    lines = os.system(cmd)
+                    
+                    # deal with private tags (-ie options not available in current version)
+                    cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0032,1032)=' + " " + '" ' + SeriesPair[0] + '  > '+program_loc+os.sep+'outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt' 
+                    lines = os.system(cmd)
+                    cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1002)=' + " " + '" ' + SeriesPair[0] + '  > '+program_loc+os.sep+'outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt' 
+                    lines = os.system(cmd)
+                    cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1013)=' + " " + '" ' + SeriesPair[0] + '  > '+program_loc+os.sep+'outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt' 
+                    lines = os.system(cmd)
+                    cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1016)=' + " " + '" ' + SeriesPair[0] + '  > '+program_loc+os.sep+'outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt' 
+                    lines = os.system(cmd)
+                    cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1019)=' + " " + '" ' + SeriesPair[0] + '  > '+program_loc+os.sep+'outcome'+os.sep+'dcmodifiedPulledDicomFiles.txt' 
+                    lines = os.system(cmd)
+                    
+                    # less common ones
+                    cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1006)=' + " " + '" ' + SeriesPair[0]
+                    lines = os.system(cmd)
+                    cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,1008)=' + " " + '" ' + SeriesPair[0]
+                    lines = os.system(cmd)
+                    cmd = program_loc+os.sep+'dcmodify -ie -gin -m "(0033,100A)=' + " " + '" ' + SeriesPair[0]
+                    lines = os.system(cmd)
+                    
+                    
+            print '(', len(imagefList), ' images are anonymized.)'
+            
+        print 'Total Series: ' + str(len(ListOfSeriesGroupUniqueRev)) + '\n';
+        
+        ##########################################################################
+        bakimagepath = ('*.bak').strip() # (iExamID + '\\*.bak').strip()
+        print 'Clean backup files (' + bakimagepath + ') ....' ;
+            
+        for fl in glob.glob(bakimagepath): 
+            #Do what you want with the file
+            #print fl
+            os.remove(fl)
+            
+        print 'Backed to cwd: ' + os.getcwd()
+
         # Go back - go to next 
         os.chdir(str(program_loc))    
         IDser += 1
-
         
     ########## END PULL #######################################
     return
